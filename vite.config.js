@@ -17,5 +17,6 @@ export default defineConfig({
       '@views': resolve(__dirname, 'src/views'),
       '@components': resolve(__dirname, 'src/components'),
     }
-  }
+  },
+  base: 'https://cris0501.github.io/portafolio'
 })
