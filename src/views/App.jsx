@@ -10,15 +10,15 @@ function App() {
     <div className="h-[100vh]">
 
       <div className='w-full py-32 bg-gray-600'>
-        <div className="flex flex-column justify-center items-center w-full mx-auto my-5">
+        <div className="flex flex-col md:flex-row justify-center items-center w-full mx-auto my-5">
           <Cube />
 
-          <div className="ml-10 w-1/3 text-white">
+          <div className="ml-10 w-5/6 md:w-1/3 text-white mt-24 md:mt-2">
             <p className="text-5xl font-bold"> Cristian Ramirez </p>
             <p className="text-xl italic">
               Estudiante de licenciatura en Física y Matemáticas
             </p>
-            <p className="mt-4 text-sm">
+            <p className="text-justify mt-4 text-sm">
               Hola! Soy Cristian, un apasionado de la programación y la tecnología, siempre buscando el próximo desafío y emocionado por explorar
               nuevas fronteras en el mundo digital. Con un trasfondo en física y matemáticas, la lógica es mi aliada en cada proyecto que emprendo.
               <br /><br />
