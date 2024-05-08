@@ -13,7 +13,7 @@ function App() {
         <div className="flex flex-col md:flex-row justify-center items-center w-full mx-auto my-5">
           <Cube />
 
-          <div className="ml-10 w-5/6 md:w-1/3 text-white mt-24 md:mt-2">
+          <div className="md:ml-10 w-5/6 md:w-1/3 text-white mt-24 md:mt-2">
             <p className="text-5xl font-bold"> Cristian Ramirez </p>
             <p className="text-xl italic">
               Estudiante de licenciatura en Física y Matemáticas
@@ -95,7 +95,7 @@ function App() {
           Otros proyectos
         </p>
 
-        <div className="flex flex-col w-2/3 mx-auto">
+        <div className="flex flex-col w-5/6 md:w-2/3 mx-auto">
           <div className="flex flex-col justify-around items-center mt-4 mb-8">
             <div className="flex">
               <img src="" alt="" />
