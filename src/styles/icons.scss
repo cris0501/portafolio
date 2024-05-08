@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'crg';
-  src:  url('fonts/crg.eot?6st7zm');
-  src:  url('fonts/crg.eot?6st7zm#iefix') format('embedded-opentype'),
-    url('fonts/crg.ttf?6st7zm') format('truetype'),
-    url('fonts/crg.woff?6st7zm') format('woff'),
-    url('fonts/crg.svg?6st7zm#crg') format('svg');
+  src:  url('fonts/crg.eot?dej7wr');
+  src:  url('fonts/crg.eot?dej7wr#iefix') format('embedded-opentype'),
+    url('fonts/crg.ttf?dej7wr') format('truetype'),
+    url('fonts/crg.woff?dej7wr') format('woff'),
+    url('fonts/crg.svg?dej7wr#crg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -134,6 +134,10 @@
 .icon-postgresql:before {
   content: "\e914";
   color: #336791;
+}
+.icon-python:before {
+  content: "\e928";
+  color: #ffdf59;
 }
 .icon-raspberrypi:before {
   content: "\e915";

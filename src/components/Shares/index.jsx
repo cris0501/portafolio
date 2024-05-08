@@ -9,7 +9,7 @@ function Shares (){
       <div className="flex justify-center items-center md:flex-col">
         <img src={omm} alt="Mates" className="h-[120px] my-4 block"/>
         <p className="justify w-2/3 mx-auto text-justify">
-          Participante de la Olimpiada Hidalguense de Matemáticas obteniendo segundo lugar estatal con mención honorifica
+          Segundo lugar estatal con mención honorifica en la olimpiada hidalguense de Matemáticas
         </p>
       </div>
       {/* <div className="flex justify-center md:flex-col">

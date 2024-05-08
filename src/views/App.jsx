@@ -1,10 +1,8 @@
 import Cube from '../components/Cube/index.jsx'
 import Cubes from '../components/Cubes/index.jsx'
 import SNetworks from '../components/SNetworks/index.jsx'
-import Shares from '../components/Shares/index.jsx'
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
     <div className="h-[100vh]">
@@ -13,18 +11,22 @@ function App() {
         <div className="flex flex-col md:flex-row justify-center items-center w-full mx-auto my-5">
           <Cube />
 
-          <div className="md:ml-10 w-5/6 md:w-1/3 text-white mt-24 md:mt-2">
+          <div className="md:ml-10 w-5/6 md:w-1/3 text-white mt-24 md:my-2">
             <p className="text-5xl font-bold"> Cristian Ramirez </p>
             <p className="text-lg italic">
-              Desarrollador semi-senior
+              Desarrollador Full Stack
             </p>
-            <p className="text-lg italic">
-              Estudiante de licenciatura en Física y Matemáticas
-            </p>
-            <p className="text-justify mt-6 text-sm">
-              Hola! Soy Cristian, un apasionado de la programación y la tecnología, siempre buscando el próximo desafío y emocionado por explorar
-              nuevas fronteras en el mundo digital. Con un trasfondo en física y matemáticas, la lógica es mi aliada en cada proyecto que emprendo.
-              <br /><br />
+
+            <a href="https://drive.google.com/file/d/1LHHP27xxLNhBJs-mv4YvIQkJ-vNbj1uZ/view" target="_blank" className="block my-6">
+              <button class="text-lg rounded bg-blue-500 text-white py-2 px-4 font-bold">
+                Mi curriculum
+              </button>
+            </a>
+
+            <p className="text-justify">
+              Hola! Soy Cristian, desarrollador full stack, siempre buscando el próximo desafío y emocionado por explorar nuevas 
+              fronteras en el mundo digital. Con estudios en física y matemáticas, la lógica es mi aliada en cada proyecto que emprendo.
+              <br /><br />  
               Como creyente en el cambio y la innovación, abrazo las metodologías ágiles como Scrum para impulsar la colaboración y la eficiencia
               en cada equipo en el que trabajo. Creo firmemente que la industria está en constante evolución y es nuestra responsabilidad adaptarnos
               y liderar ese cambio.
@@ -35,10 +37,6 @@ function App() {
         <div className="w-2/3 md:w-1/2 mx-auto pt-12 text-white">
           <SNetworks />
         </div>
-      </div>
-
-      <div className="mb-10">
-        <Shares />
       </div>
 
       <div className="flex flex-col w-5/6 mx-auto">
@@ -114,39 +112,53 @@ function App() {
               <i className="text-4xl icon-c" />
               <i className="text-4xl icon-arduino" />
               <i className="text-4xl icon-raspberrypi" />
+              <i className="text-4xl icon-python" />
             </div>
           </div>
           <div className="flex flex-col justify-around items-center mt-4 mb-8">
             <div className="flex">
               <img src="" alt="" />
               <p className="text-lg text-justify">
-                Recorrido virtual de las instalaciones de la Escuela Superior de Física y Matemáticas del IPN. Se desarrollo como un videojuego
-                para mejorar la experiencia del usuario. Todo fue diseñado con Blender junto con las texturas y mediante el motor de videojuegos
-                Godot, se crea la logica de cada elemento, colisiones y cámaras. Esto ayuda a que estudiantes y aspirantes puedan conocer las
-                instalaciones, ubicacion de servicios y más de forma agil e interactiva ya que se provee información acerca de que hace cada
-                departamento dentro de la institución, así como el encargado y los medios de informacion con los que se cuentan disponibles.
+                Como freelance, desarrollé un proyecto con Vue que ofrecía un recorrido virtual de las instalaciones de la ESFM (del IPN), similar
+                a Google Maps pero en 2D. Este proyecto permitía a los usuarios explorar de manera interactiva el campus y familiarizarse con sus
+                diferentes áreas.<br />
+                Recientemente, se inicio una actualización significativa del proyecto, llevándolo a una nueva dimensión con un emocionante enfoque
+                en 3D. Ahora, el recorrido virtual se ha transformado en un apasionante videojuego que utiliza las tecnologías de Blender y Godot
+                para ofrecer una experiencia inmersiva y emocionante para los usuarios. ¡Descubre la ESFM como nunca antes!
               </p>
             </div>
-            <div className="flex justify-around items-center w-full my-4">
+            <div className="flex justify-around items-center w-full my-2">
               <i className="text-4xl icon-godot" />
               <i className="text-4xl icon-blender" />
-              <i className="text-4xl icon-html5" />
+              <i className="text-4xl icon-vue" />
+            </div>
+            <div className="flex justify-around items-center w-full mt-2 mb-2">
+              <a href="https://recorrido.esfm.ipn.mx" target="_blank">
+                <button class="text-lg rounded bg-blue-500 text-white py-2 px-4 font-bold">
+                  Conoce el proyecto
+                </button>
+              </a>
             </div>
           </div>
           <div className="flex flex-col justify-around items-center mt-4 mb-8">
             <div className="flex">
               <img src="" alt="" />
               <p className="text-lg text-justify">
-                Biblioteca virtual con un modulo de LaTeX para el renderizado de formulas matemáticas. Para estandarizar el desarrollo y la estructura
-                se crearon bibliotecas de libre distribución de LaTeX, las cuales tambien fueron implementadas en la ESFM-IPN para la estandarización de
-                los reportes de laboratorio. Esto siguiendo la guia de la APS (American Physical Society) de tal forma que su uso es simple y la documentación
-                es explicita.
+                Desarrollé una biblioteca virtual con un módulo de LaTeX para renderizar fórmulas matemáticas, como proyecto freelance para la Escuela
+                Superior de Física y Matemáticas del IPN (ESFM-IPN). Esta biblioteca, basada en las directrices de la American Physical Society (APS),
+                estandariza la elaboración de informes de laboratorio, facilitando su escritura mediante herramientas LaTeX predefinidas y documentación
+                explícita.
               </p>
             </div>
             <div className="flex justify-around items-center w-full my-4">
               <i className="text-4xl icon-latex" />
               <i className="text-4xl icon-vue" />
               <i className="text-4xl icon-laravel" />
+            </div>
+            <div className="flex justify-around items-center w-full mt-2 mb-2">
+              <button class="text-lg rounded bg-blue-500 text-white py-2 px-4 font-bold">
+                El acceso al proyecto es interno del instituto
+              </button>
             </div>
           </div>
         </div>
