@@ -29,7 +29,7 @@ function App() {
 
           </div>
         </div>
-        <div className="w-1/2 mx-auto pt-12 text-white">
+        <div className="w-2/3 md:w-1/2 mx-auto pt-12 text-white">
           <SNetworks />
         </div>
       </div>
@@ -75,6 +75,7 @@ function App() {
               <i className="text-5xl icon-mongodb transform cursor-pointer hover:scale-125" ></i>
               <i className="text-5xl icon-postgresql transform cursor-pointer hover:scale-125" ></i>
               <i className="text-5xl icon-redis transform cursor-pointer hover:scale-125" ></i>
+              <i className="text-5xl icon-apache transform cursor-pointer hover:scale-125" title="HBase"></i>
             </div>
             <p className="text-xl text-center mt-16 mb-5">
               Despliegue (CI)
