@@ -17,7 +17,7 @@ function App() {
               Desarrollador Full Stack
             </p>
 
-            <a href="https://drive.google.com/file/d/1LHHP27xxLNhBJs-mv4YvIQkJ-vNbj1uZ/view" target="_blank" className="block my-6">
+            <a href="https://drive.google.com/file/d/1hfjYpMe7D3RCMheCNS2x9T3wncrbnVfT/view" target="_blank" className="block my-6">
               <button class="text-lg rounded bg-blue-500 text-white py-2 px-4 font-bold">
                 Mi curriculum
               </button>
